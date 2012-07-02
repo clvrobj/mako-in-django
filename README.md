@@ -11,10 +11,10 @@ TEMPLATE_CONTEXT_PROCESSORS = (
     'django.contrib.auth.context_processors.auth',
     'django.core.context_processors.request',
     )
-    ```
+```
     This pass request instance to mako template.
 3. In django template:
-	```html
-	{% load mako_ext %}
-	{% include_mako_template 'path/to/mako_template.html' %}
-	```
+```html
+{% load mako_ext %}
+{% include_mako_template 'path/to/mako_template.html' %}
+```
