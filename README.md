@@ -1,7 +1,7 @@
 mako-in-django
 ==============
 
-Let's include mako template in django template
+Let's include mako template in django template！
 
 ##Install
 1. Copy /templatetags folder to any app in your django project, make sure that app is in  INSTALLED_APPS of settings.py
