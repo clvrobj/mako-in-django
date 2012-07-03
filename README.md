@@ -1,7 +1,7 @@
 mako-in-django
 ==============
 
-Let's include mako template in django template！
+Let's include [Mako](http://www.makotemplates.org/) template in [Django](https://www.djangoproject.com/) template！
 
 ##Install
 1. Install [django-mako](http://code.google.com/p/django-mako/).
