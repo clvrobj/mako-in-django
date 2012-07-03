@@ -24,3 +24,8 @@ Let's include mako template in django template
     {% load mako_ext %}
     {% include_mako_template 'path/to/mako_template.html' %}
     ```
+    or if you want to pass some keyword arguments:
+    ```html
+    {% load mako_ext %}
+    {% include_mako_template 'path/to/mako_template.html' arg1=value1 arg2=value2 %}
+    ```
